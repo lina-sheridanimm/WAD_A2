@@ -21,6 +21,7 @@ Each article component (including the featured article) contains:
 - A title
 - preview text
 - a link to the full article page on your site.
+
 The homepage must contain a table that describes the following data:
 - The number of site visitors each month for the last 6 months. Use fake data for now.
 
