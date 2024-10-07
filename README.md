@@ -8,8 +8,11 @@ Create a footer with:
 - A footer about about cookie usage and link to "accept cookies". This link's href should point to "#" for the time being. (We do not need to implement cookie usage at this time)
 
 Home page must contain:
+
 A welcome title and paragraph
+
 A "featured" article. 
+
 3 categories of articles: "Industry","Technical","Career"
 Each of these categories contains 2 articles.
 Each article component (including the featured article) contains:
