@@ -12,7 +12,33 @@
         <a href="./about.html">About</a>
         <a href="./contact.html">Contact</a>
     </header>
-    
+
+    <form id="contact-form" method="POST" action="process-contact.php">
+
+        <label for="name">Name: </label>
+        <input type="text" required>
+
+        <label for="email">Email: </label>
+        <input type="email" required>
+
+        <label for="interests">Category Interests: </label>
+        <input type="checkbox" id="interest1" value="industry">
+        <label for="interest1">Industry</label>
+        <input type="checkbox" id="interest2" value="technical">
+        <label for="interest2">Technical</label>
+        <input type="checkbox" id="interest3" value="career">
+        <label for="interest3">Career</label>
+
+        <label for="role">Your Role: </label>
+        <select name="role" id="role">
+            <option value="writer">Writer</option>
+            <option value="contributor">Contributor</option>
+            <option value="admin">Administrator</option>
+        </select>
+
+        <input type="submit" value="Submit">
+
+    </form>
 
     <footer>
         to provide the best experience, we use cookies. click "accept cookies" to consent.
