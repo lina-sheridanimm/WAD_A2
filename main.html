@@ -97,11 +97,12 @@
 
     <table border="1px">
         <tr>
-            <td>Site Visitors</td>
+            <th>Month</th>
+            <th>Site Visits</th>
         </tr>
-        <tr>
-            <td>14637 hits</td>
-        </tr>
+        <tbody id="visits">
+            <!-- dynamically created visitor data entered here -->
+        </tbody>
     </table>
 
     <h2>Trailer of the Week:</h2>
@@ -115,10 +116,11 @@
         allowfullscreen>
     </iframe>
 
-    <footer>
+    <footer id="footer">
         to provide the best experience, we use cookies. click "accept cookies" to consent.
-        <a href="#">accept cookies</a>
+        <a href="#" id="acceptCookies">accept cookies</a>
     </footer>
 
+<script src="main.js"></script>
 </body>
 </html>
